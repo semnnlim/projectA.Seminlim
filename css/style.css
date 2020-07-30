@@ -1,0 +1,33 @@
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none;}
+
+header{
+    width: 100%;
+    background-color: #ffffff;
+    position: relative;
+}
+
+ 
+#top_menu{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    color: rgb(0, 0, 0);
+}
+#top_menu a{color: rgb(0, 0, 0);font-size: 5px;}
+
+span {color:black;}
+}
+
+img {max-width: 100%; height: auto;}
+
+
+span.imageblock {max-width: 100%; height: auto;}
+
+
+#ttCanvas img {max-width: none;}
+
+
+
+ 
