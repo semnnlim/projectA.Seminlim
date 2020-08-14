@@ -317,7 +317,7 @@ select {
 
 
  
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 610px) {
     .stories {
         display: flex;
         align-items: stretch;
