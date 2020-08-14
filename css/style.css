@@ -253,6 +253,9 @@ select {
     font-weight: 500;
     text-align: center;
     left: 29em;
+    align-items: stretch;
+    flex-wrap: wrap;
+    
     
 }
 
@@ -263,8 +266,8 @@ select {
     height: 550px;
     display: block;
     position: relative;
-    top: 15em;
-    left: 22em;
+    top: 10em;
+    left: 70%;
   
     
     
@@ -274,8 +277,8 @@ select {
 .MORE-PERFUME {
     display: block;
     position: relative;
-    left: 46em;
-    top: 20em;
+    top: 10em;
+    left: 177%;
     z-index: 600;
     color: rgb(255, 255, 255);
     background-color:rgb(88, 88, 88);
@@ -299,7 +302,7 @@ select {
     color: rgb(119, 117, 117);
     position: relative;
     top: 12em;
-    left: 20.9em;
+    left: 140%;;
     font-size: 35px;
     font-weight: 100;
     width: 500px;
@@ -312,22 +315,15 @@ select {
 .PERFUME-IMG {
     display: block;
     position: relative;
-    bottom: -1.5em;
+    top: 10em;
+    left: 70%;
     width: 500px;
     height: 500px;
-    right: -0.8em;
+
     
 }
 
-.OTHERSPERFUME-img {
-    display: block;
-    position: relative;
-    bottom: 30.8em;
-    width: 500px;
-    height: 500px;
-    right: -50em;
-   
-}
+
 
 .foot {
     display: block; 
@@ -345,46 +341,13 @@ select {
 }
 
 
-.social {
-    display: block;
-    position: relative;
-    bottom: 2.8em;
-}
-
-.social-img{
-    display: block;
-    width:80px;
-}
-
-
-.info {
-    display: flex;
-    position: relative;
-    left: 30em;
-    top: 0.9em;
-    font-size: 19px;
-    width: 1300px;
-   
-}
-
-.info p {
-    display: flex;
-    margin: 0.5em 4.3em;
-}
-
-.info a{
-    color: rgb(41, 41, 41);
-}
-
-
-
 
 
 .copy {
     display: block;
     position: relative;
-    left: 3em;
-    bottom: -7.7em;
+    top: 10em;
+    left: 0em;
     width:10%;
 }
 
@@ -392,9 +355,8 @@ select {
     width: 255px;
     display: block;
     position: relative;
-    left: 15em;
-    bottom: 5.5em;
-    margin: 0 auto;
+    top: 10em;
+    left: 0em;
   }
   
   input#search-bar{
@@ -422,7 +384,7 @@ select {
 
 
 .scale { overflow:hidden;}
-.scale img { transform:scale(1); transition:transform 0.5s linear;}
+.scale img { transform:scale(1); transition: 0.5s linear;}
 .scale:hover img { 
   transform:scale(1.1); 
 }
@@ -432,3 +394,39 @@ select {
 
 
  
+@media screen and (min-width: 600px) {
+    .stories {
+        display: flex;
+        align-items: stretch;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .stories {
+        flex-basis: calc(50% -1em);
+    }
+    img.responsive { width: 290px; }
+    img.responsive { height: 435px; }
+    
+    /*img.resize { width: 40px; }
+    img.resize { height: 50px; }*/
+}
+@media screen and (min-width: 750px) {
+    .stories {
+        display: flex;
+        align-items: stretch;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .stories {
+        flex-basis: calc(33.3333% -1em);
+    }
+    img.responsive { width: 230px; }
+    img.responsive { height: 345px; }
+
+    img.resize { width: 200px; }
+    img.resize { height: 250px; }
+    
+    .item {
+        flex-basis: 25%;
+    }
+}
