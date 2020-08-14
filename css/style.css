@@ -305,19 +305,7 @@ select {
 
  
 @media screen and (min-width: 90%) {
-    .body {
-        display: flex;
-        align-items: stretch;
-        flex-wrap: wrap;
-        justify-content: space-between;
     
-
-    }
-
-    .body{
-        flex-basis: calc(50% 1em); 
-    }
-
     .stories {
         display: flex;
         align-items: stretch;
