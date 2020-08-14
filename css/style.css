@@ -317,7 +317,7 @@ select {
 
 
  
-@media screen and (min-width: 610px) {
+@media screen and (min-width: 600px) {
     .body {
         display: flex;
         align-items: stretch;
