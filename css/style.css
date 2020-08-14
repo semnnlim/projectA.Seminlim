@@ -238,18 +238,28 @@ select {
     background-color: black;
 }
 
+.foot {
+    display: block; 
+    position: relative;
+    top: 10em;
+    left: 0em;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 350px;
+    padding: 0;
+}
 
-
-
-
+.foot li{
+    list-style: none;
+}
 
 
 
 .info {
     display: flex;
     position: relative;
-    left: 20em;
     top: 10em;
+    left: 10%;
     font-size: 19px;
     width: 1300px;
    
@@ -265,44 +275,21 @@ select {
 }
 
 
+
+
+
 .copy {
     display: block;
     position: relative;
-    left: -60%;
-    top: 5em;
+    
+    left: 0em;
+    bottom: -7.7em;
     width:10%;
 }
 
-.search-container{
-    width: 255px;
-    display: block;
-    position: relative;
-    left: -30em;
-    top: 10em;
-    margin: 0 auto;
-  }
-  
-  input#search-bar{
-    margin: 0 auto;
-    height: 40px;
-    padding: 0 20px;
-    font-size: 1rem;
-    border: 1px solid #000000;
-    outline: none; 
-    }
 
 
-
-    .type {
-        position: relative;
-        width: 500px;
-        top: 7em;
-        LEFT: 4.6%;
-    }
     
-    .type li {
-        list-style: none;
-    }
    
 
 
@@ -317,7 +304,7 @@ select {
 
 
  
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 90%) {
     .body {
         display: flex;
         align-items: stretch;
@@ -343,7 +330,7 @@ select {
     img.responsive { width: 400px; }
     img.responsive { height: 400px; }
 
-    .footer{
+    .foot{
         display: flex;
         align-items: stretch;
         flex-wrap: wrap;
@@ -351,7 +338,7 @@ select {
     
     }
 
-    .footer{
+    .foot{
         flex-basis: calc(50% 1em); 
     }
   
