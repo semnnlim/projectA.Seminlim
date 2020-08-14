@@ -336,3 +336,23 @@ select {
     /*img.resize { width: 40px; }
     img.resize { height: 50px; }*/
 
+    @media screen and (min-width: 750px) {
+        .stories {
+            display: flex;
+            align-items: stretch;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .stories {
+            flex-basis: calc(33.3333% -1em);
+        }
+        img.responsive { width: 230px; }
+        img.responsive { height: 345px; }
+    
+        img.resize { width: 200px; }
+        img.resize { height: 250px; }
+        
+        .story {
+            flex-basis: 25%;
+        }
+    }
