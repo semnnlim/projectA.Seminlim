@@ -318,6 +318,19 @@ select {
 
  
 @media screen and (min-width: 610px) {
+    .body {
+        display: flex;
+        align-items: stretch;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    
+
+    }
+
+    .body{
+        flex-basis: calc(50% 1em); 
+    }
+
     .stories {
         display: flex;
         align-items: stretch;
@@ -329,6 +342,18 @@ select {
     }
     img.responsive { width: 400px; }
     img.responsive { height: 400px; }
+
+    .footer{
+        display: flex;
+        align-items: stretch;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    
+    }
+
+    .footer{
+        flex-basis: calc(50% 1em); 
+    }
   
 }
 
