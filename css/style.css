@@ -426,6 +426,7 @@ select {
             flex-wrap: wrap;
             justify-content: space-around;
             flex-basis: calc(25%); 
+            left: 20%;
         }
         .top-menu{
             display: none;
