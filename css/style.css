@@ -434,11 +434,12 @@ select {
 
         .search-box{display: none;}
         .logo {max-width: 140px;}
-        .menubar{display:flex;}
+        .menubar{display: inline;}
         .type {font-size: 7px;}
         .add-btn{width: auto;}
         .legal{font-size: 5px;}
         }
+        
         img.responsive { width: 150px; }
         img.responsive { height: 250px; }
 
