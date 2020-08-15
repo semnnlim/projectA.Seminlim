@@ -419,14 +419,13 @@ select {
     @media screen and (min-width: 0px) and (max-width:600px) /*phone*/ 
     {
         .stories {
-            float: left;
+            float: center;
             display: flex;
             align-items: stretch;
             text-align: center;
             flex-wrap: wrap;
             justify-content: space-around;
             flex-basis: calc(25%); 
-            left: 20%;
         }
         .top-menu{
             display: none;
@@ -438,7 +437,7 @@ select {
         .menubar{display: none;}
         .type {font-size: 7px;}
         .add-btn{width: auto;}
-        .legal{font-size: 15px;}
+        .legal{font-size: 20px;}
         }
         
         img.responsive { width: 150px; }
