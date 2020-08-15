@@ -434,7 +434,7 @@ select {
 
         .search-box{display: none;}
         .logo {max-width: 140px;}
-        .menubar{display: inline;}
+        .menubar{display: inline-flex;}
         .type {font-size: 7px;}
         .add-btn{width: auto;}
         .legal{font-size: 5px;}
