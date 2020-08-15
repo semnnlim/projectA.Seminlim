@@ -432,9 +432,9 @@ select {
             padding-top: 2px;
             padding-bottom:2px;}
 
-        .search-box{display: none;}
+        .search-box{display: auto;}
         .logo {max-width: 140px;}
-        .menubar{display: auto;}
+        .menubar{display: none;}
         .type {font-size: 7px;}
         .add-btn{width: auto;}
         .legal{font-size: 5px;}
